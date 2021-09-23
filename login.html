@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<style>
+    /*set border to the form*/
+      
+    form {
+        border: 3px ;
+    }
+    h1 {text-align: center;}
+    h2{color:rgb(255, 255, 255)}
+    body {
+  background-image: url("images/banner.jpg");
+  background-repeat: no-repeat;
+  background-attachment: ;
+}
+    /*assign full width inputs*/
+      
+    input[type=text],
+    input[type=password],[type=number] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgb(255, 255, 255);
+        box-sizing: border-box;
+        color:rgb(255, 255, 255)
+    }
+    /*set a style for the buttons*/
+      
+    button {
+        background-color: #bd1b1b;
+        color: rgb(255, 255, 255);
+        padding: 12px 2px;
+        margin: 12px 12px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+    /* set a hover effect for the button*/
+     
+    img {
+  opacity: 1.0;
+}
+    button:hover {
+        opacity: 0.0;
+    }
+    /*set extra style for the cancel button*/
+      
+    .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #db3c20;
+    }
+    /*centre the display image inside the container*/
+      
+    .imgcontainer {
+        text-align: center;
+        margin: 2px 0 0px 0;
+    }
+    /*set image properties*/
+      
+    img.avatar {
+        width: 40%;
+        border-radius: 45%;
+    }
+    /*set padding to the container*/
+      
+    .container {
+        padding: 10px;
+    }
+    /*set the forgot password text*/
+      
+    span.psw {
+        float: right;
+        padding-top: 5px;
+    }
+    /*set styles for span and cancel button on small screens*/
+      
+    @media screen and (max-width: 300px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+        .cancelbtn {
+            width: 100%;
+        }
+    }
+</style>
+  
+<body>
+     
+    
+    </hr/>
+    
+    <h1 style="color: white ;">Login Form</h1>
+    
+    <form action="/action_page.php">
+       
+        </div>
+        <div class="logo">
+            <a href="felicity.html"> <button type="button" class="cancelbtn">BACK</button></a>
+         </div>
+  
+        <div class="container">
+            <label style="color:white"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+  
+            <label  style="color:white"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>            
+            
+            <button  type="submit">Login</button>
+            <input style="color:rgb(187, 25, 25)" type="checkbox" checked="checked"> Remember me
+        </div>
+  
+        <div class="container" >
+           
+            <span class="psw">Forgot <a href="#">password?</a></span>
+            <h4 style="color:white">Don't have an account?</h4><a href="file:///C:/Users/dagar/OneDrive/Desktop/felicity/sigin.html"><h4 style="color:rgb(255, 255, 255)"><b>CREATE ACCOUNT</b></h4></a>
+        </div>
+    </form>
+  
+</body>
+  
+</html>
